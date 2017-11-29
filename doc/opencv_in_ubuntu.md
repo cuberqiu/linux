@@ -1,6 +1,6 @@
 # Ubuntu下安装Opencv3.2
 下载opencv2.0 : [下载地址](http://opencv.org/releases.html)  
-![](https://github.com/CraftHeart/Linux-Study/blob/master/picture/1.png)
+![](https://github.com/CraftHeart/linux/blob/master/pic/1.png)
 1. 安装依赖包  
 [compuiler] sudo apt-get install build-essential  
 [required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev  
