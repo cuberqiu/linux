@@ -77,7 +77,7 @@ sudo apt-get -f install
 1. 首先安装fcitx
 ```
 sudo add-apt-repository ppa:wengxt/fcitx-nightly
-sudo apt-get update 
+sudo apt-get update
 sudo apt-get install  fcitx
 ```
 2. 将fcitx设置为首选输入法
@@ -88,10 +88,19 @@ sudo apt-get install fcitx-sunpinyin  #下边的都是输入法，可安装任�
 
 fcitx-pinyin
 fcitx-sunpinyin
-fcitx-libpinyin 
+fcitx-libpinyin
 fcitx-googlepinyin
 fcitx-table-wbpy #五笔加拼音的输入法
 fcitx-table-wubi #五笔输入法
 ```
 4. 注销或者重启一下系统就可以使用了。Ctrl + Space 为切换输入法的快捷键.  
 如果输入法选项里没有出现输入法，就需要到系统设置里设置一下: System Settings -> Text Entry -> add fcitx
+
+## ubuntu上使用shadowsocks代理
+1. 安装shadowsocks-qt5
+```
+sudo apt-get install shadowsocks-qt5
+```
+2. 设置系统全局代理  
+![](https://github.com/CraftHeart/linux/blob/master/pic/Screenshot%20from%202017-11-29%2010-37-07.png)  
+3. 配置shadowsocks后即可使用
