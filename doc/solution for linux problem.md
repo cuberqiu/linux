@@ -101,6 +101,6 @@ fcitx-table-wubi #五笔输入法
 ```
 sudo apt-get install shadowsocks-qt5
 ```
-2. 设置系统全局代理  
+2. 设置系统全局代理, 设置为manual,并在socks host处时写上127.0.0.1，端口号是自己的shadowsocks设置的本地端口号  
 ![](https://github.com/CraftHeart/linux/blob/master/pic/Screenshot%20from%202017-11-29%2010-37-07.png)  
 3. 配置shadowsocks后即可使用
