@@ -104,3 +104,25 @@ sudo apt-get install shadowsocks-qt5
 2. 设置系统全局代理, 设置为manual,并在socks host处时写上127.0.0.1，端口号是自己的shadowsocks设置的本地端口号  
 ![](https://github.com/CraftHeart/linux/blob/master/pic/Screenshot%20from%202017-11-29%2010-37-07.png)  
 3. 配置shadowsocks后即可使用
+
+## ubuntu上安装搜狗输入法
+1. linux版本的搜狗输入法和fcitx有冲突，在安装前需要先移除fcitx;
+```
+sudo apt remove fcitx*
+sudo apt autoremove
+```
+2. 下载搜狗输入法安装包:https://pinyin.sogou.com/linux/?r=pinyin
+```
+sudo dpkg -i sogoupinyin*.deb
+sudo apt -f install
+```
+3. 安装完成之后需要重启才能生效
+
+## Ubuntu上添加或删除ppa源
+1. 添加一个PPA源
+```
+sudo apt-get-repository ppa:user/ppa-name
+```
+2. 删除一个PPA源
+- 到源的目录/etc/apt/sources.list.d/
+- 可以看到关于源的文件，删除即可
