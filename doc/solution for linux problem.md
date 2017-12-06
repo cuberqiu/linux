@@ -99,6 +99,8 @@ fcitx-table-wubi #五笔输入法
 ## ubuntu上使用shadowsocks代理
 1. 安装shadowsocks-qt5
 ```
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 2. 设置系统全局代理, 设置为manual,并在socks host处时写上127.0.0.1，端口号是自己的shadowsocks设置的本地端口号  
